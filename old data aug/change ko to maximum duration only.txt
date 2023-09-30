@@ -1,0 +1,6 @@
+change ko to maximum duration only
+
+	keep constant and throw away other data (highest dur and 2 most exposure and 0 exposure)
+
+
+seperste epiph and meta

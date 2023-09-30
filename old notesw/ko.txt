@@ -1,0 +1,24 @@
+ID				Source.Name         		
+PWB				PWB
+duration		Duration
+stiffness		stiffness_N_per_mm_newtons_per_millimeter
+load.max		maximum_load_N_newtons
+load.fail		failure_load_newtons
+ID				Source.Name 
+OBSBS			Osteoblast_surface_Os_per_bone_surface_BS_percent
+OCSBS			Osteoclast_surface_OcS_per_bone_surface_BS_percent 
+MSBS			Mineralized_surface_MS_per_bone_surface_BS_percent
+MAR				Mineral_apposition_rate_MAR_micrometers_per_day 
+BFRBS			Bone_formation_rate_BFR_per_bone_surface_BS_percent
+ID				Source Name  
+BVTV			Bone_volume_BV_per_total_volume_TV_mm4_per_mm4
+trab.num		Trabecular_number_TbN_one_per_millimeter
+trab.thick		Trabecular_thickness_TbTh_millimeter 
+trab.sep		Trabecular_separation_TbSp_millimeter
+BMD				Bone_mineral_density_BMD_mg_per_cubed_centimeter 
+cort.thick		Cortical_thickness_CtTh_millimeter
+ID				Source Name 
+BMD0			trabecular_BMD_mg_per_cubic_centimeters.1 (1 week)
+BMD1			trabecular_BMD_mg_per_cubic_centimeters.2 (2 week)
+BMD2			trabecular_BMD_mg_per_cubic_centimeters.3 (3 week)
+BMD4			trabecular_BMD_mg_per_cubic_centimeters.4 (4 week)
