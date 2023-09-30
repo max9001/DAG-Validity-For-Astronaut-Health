@@ -18,7 +18,7 @@ methodologies and data resources. Through perseverance, these findings
 contribute to the field of data analysis and machine learning, informing
 future research efforts.
 
-MIT License
+## MIT License
 
 Copyright (c) 2023 Maxwell Rehm
 
