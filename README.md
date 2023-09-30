@@ -45,7 +45,7 @@ SOFTWARE.
 If you use `DAG-pc.stable-R` in your research, please use the following BibTeX entry:
 
 ```bibtex
-@misc{yourcuteshortcut,
+@misc{pcstable2023mr,
   author =    {Maxwell Rehm},
   title =     {DAG-pc.stable-R},
   howpublished = {\url{https://github.com/max9001/DAG-pc.stable-R}},
