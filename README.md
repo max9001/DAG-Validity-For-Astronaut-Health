@@ -39,3 +39,15 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## Citing
+
+If you use `DAG-pc.stable-R` in your research, please use the following BibTeX entry:
+
+```bibtex
+@misc{yourcuteshortcut,
+  author =    {Maxwell Rehm},
+  title =     {DAG-pc.stable-R},
+  howpublished = {\url{https://github.com/max9001/DAG-pc.stable-R}},
+  year =      {2023}
+}
