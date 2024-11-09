@@ -23,11 +23,11 @@ The PC (Peters & Clark) algorithm is a popular method for learning Bayesian netw
 
 ## Initial Research
 
-We initially experimented with smaller datasets, each containing a limited number of variables and entries (OSD-351, OSD-477, OSD-489, OSD-608). The objective was to capture basic causal relationships via DAGs, such as exposure to spaceflight causes a change in bone mass. However, due to the small sample sizes, the resulting relationships were often meaningless or poorly defined.
+We initially experimented with smaller datasets, each containing a limited number of variables and entries ([OSD-351](https://osdr.nasa.gov/bio/repo/data/studies/OSD-351), [OSD-477](https://osdr.nasa.gov/bio/repo/data/studies/OSD-477), [OSD-489](https://osdr.nasa.gov/bio/repo/data/studies/OSD-489), [OSD-608](https://osdr.nasa.gov/bio/repo/data/studies/OSD-608)). The objective was to capture basic causal relationships via DAGs, such as exposure to spaceflight causes a change in bone mass. However, due to the small sample sizes, the resulting relationships were often meaningless or poorly defined.
 
 ## Revised Approach
 
-With the larger OSD-366 dataset, we aimed to generate more meaningful DAGs. However, finding a definitive ground truth among such a large number of variables proved to be challenging. To address this, we revised our approach as follows:
+With the larger [OSD-366](https://osdr.nasa.gov/bio/repo/data/studies/OSD-366) dataset, we aimed to generate more meaningful DAGs. However, finding a definitive ground truth among such a large number of variables proved to be challenging. To address this, we revised our approach as follows:
 
 - The dataset consists of primary fibroblast cells isolated from the ears of 76 mice across different strains.
 - The focus is on comparing the effects of high Linear Energy Transfer (LET) radiation (Fe) and low LET radiation (X-ray).
