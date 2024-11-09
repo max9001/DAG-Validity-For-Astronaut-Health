@@ -64,4 +64,4 @@ This is the first promising result from our work. The DAG generated successfully
 
 ## Acknowledgments
 
-Special thanks to Bob for their contributions and support.
+Special thanks to UC Irvine, Nadia Ahmed, Lauren Sanders, Ryan Scott, Robert Reynolds, and Sylvain Costes for their contributions and support.
