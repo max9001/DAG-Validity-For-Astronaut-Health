@@ -1,53 +1,29 @@
-# DAG-pc.stable-R
+DAG Analysis for Astronaut Health
+Objective:
 
-This research explores the application of Directed Acyclic Graphs
-(DAGs) within the Human System Risk Board (HSRB) framework to
-enhance astronaut mission outcomes. By leveraging DAGs to construct
-knowledge graphs for 30 human system risks tracked by NASA, the HSRB
-aims to foster a shared understanding of causal relationships, promoting
-improved insights and communication among stakeholders. The study
-also delves into the PC Algorithm’s use in causal inference, employing
-it to uncover causal structures in diverse datasets related to spaceflight
-conditions. Data preprocessing efforts aimed to maintain data integrity,
-with detailed descriptions of datasets, such as OSD-489, OSD-351, OSD-
-477, OSD-608, and OSD-366, included. Results and discussions address
-unexpected outcomes, the impact of dataset size, complexities in problem
-representation, algorithm selection, and noise mitigation. Despite chal-
-lenges, this research emphasizes the importance of continual refinement in
-methodologies and data resources. Through perseverance, these findings
-contribute to the field of data analysis and machine learning, informing
-future research efforts.
+To investigate the causal relationships between various factors affecting astronaut health using Directed Acyclic Graphs (DAGs) and the PC Algorithm.
 
-## MIT License
+Methodology:
 
-Copyright (c) 2023 Maxwell Rehm
+Data Acquisition: Sourced relevant datasets from NASA's Open Science Data Repository (OSDR) related to spaceflight conditions.
+Data Preprocessing: Cleaned and transformed the data to ensure data quality and consistency.
+Causal Inference: Employed the PC Algorithm to identify causal relationships among variables.
+DAG Generation: Constructed DAGs to visualize the inferred causal structures.
+Results and Discussion:
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Unexpected Findings:
+In several datasets, the algorithm identified causal relationships that deviated from expected domain knowledge.
+Some variables exhibited unexpected influences on others, suggesting potential confounding factors or unmeasured variables.
+Potential Reasons:
+Limited Data: Small sample sizes may have limited the algorithm's ability to accurately capture complex relationships.
+Noise and Variability: Noise in the data and inherent variability in biological systems could have influenced the results.
+Model Limitations: The PC Algorithm, while powerful, has limitations in handling complex causal structures and noisy data.
+Future Directions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Data Augmentation: Explore techniques to increase the size and diversity of datasets.
+Advanced Algorithms: Investigate more sophisticated causal discovery algorithms.
+Sensitivity Analysis: Conduct sensitivity analysis to assess the impact of data quality and model assumptions on the results.
+Domain Expert Validation: Collaborate with domain experts to validate the inferred causal relationships.
+Conclusion:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-## Citing
-
-If you use `DAG-pc.stable-R` in your research, please use the following BibTeX entry:
-
-```bibtex
-@misc{pcstable2023mr,
-  author =    {Maxwell Rehm},
-  title =     {DAG-pc.stable-R},
-  howpublished = {\url{https://github.com/max9001/DAG-pc.stable-R}},
-  year =      {2023}
-}
+This research provides valuable insights into the application of DAGs for understanding the complex interplay of factors affecting astronaut health. By addressing the limitations identified, future studies can further refine our understanding of these relationships and inform evidence-based strategies for improving astronaut health and mission success.
