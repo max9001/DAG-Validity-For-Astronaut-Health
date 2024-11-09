@@ -31,7 +31,7 @@ With the larger [OSD-366](https://osdr.nasa.gov/bio/repo/data/studies/OSD-366) d
 
 - The dataset consists of primary fibroblast cells isolated from the ears of 76 mice across different strains.
 - The focus is on comparing the effects of high Linear Energy Transfer (LET) radiation (Fe) and low LET radiation (X-ray).
-- Existing knowledge suggests that Fe ion radiation induces more clustered DNA damage compared to X-ray radiation.
+- [Existing knowledge suggests that Fe ion radiation induces more clustered DNA damage compared to X-ray radiation.](https://doi.org/10.3390/ijms21186602)
 - The generated DAG indicates that the nodes representing different types of radiation (Fe and X-ray) each point to a variety of different nodes, with each node representing a specific DNA location. The DAG suggests that Fe and X-ray radiation cause changes at these specific DNA locations. The hypothesis is that, if we measure the distances between all DNA locations connected to Fe radiation, we should observe smaller gaps, indicating more clustered damage. In contrast, measuring the distances between DNA locations connected to X-ray radiation should reveal larger gaps, reflecting more dispersed damage.
 
 **Image of experimental setup here**  
